@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {useDispatch} from 'react-redux';
 import * as actions from '../../store/actions/actions'
 import classes from './Availability.css'
-import {ToastsContainer, ToastsStore} from 'react-toasts';
+// import {ToastsContainer, ToastsStore} from 'react-toasts';
 import moment from 'moment'
 
 const Availability = () => {
@@ -69,7 +69,7 @@ const Availability = () => {
         })
         dispatch(actions.setDays(daysToDispatch))
         dispatch(actions.setBreakTime(breakTime))
-        ToastsStore.success("Data saved successfully!")
+        // ToastsStore.success("Data saved successfully!")
 
      }
 
@@ -99,7 +99,7 @@ const Availability = () => {
 
     return (
         <React.Fragment>
-        <ToastsContainer store={ToastsStore}/>
+        {/* <ToastsContainer store={ToastsStore}/> */}
         <form className={classes.formContainer} onSubmit={setDaysHandler}>
             <div className={classes.fromTo}>
                <span>From</span>
@@ -115,6 +115,6 @@ const Availability = () => {
         </React.Fragment>
        )
 }
-
+// "react-toasts": "^3.0.6",
 
 export default Availability

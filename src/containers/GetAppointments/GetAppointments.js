@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useSelector} from 'react-redux'
 import Slots from '../Slots/Slots'
 import classes from './GetAppointments.css'
-import {ToastsContainer, ToastsStore} from 'react-toasts';
+// import {ToastsContainer, ToastsStore} from 'react-toasts';
 
 
 const GetAppointments = () => {
@@ -27,12 +27,12 @@ const GetAppointments = () => {
     }
 
     const openToast=()=>{
-        ToastsStore.error("No Options Were Found")
+        // ToastsStore.error("No Options Were Found")
     }
 
     return (
         <div className={classes.getContainer}>
-             <ToastsContainer store={ToastsStore}/>
+             {/* <ToastsContainer store={ToastsStore}/> */}
             <form  className={classes.getForm} onSubmit={getAppointments}>
                 <div>
                     <label>Days </label>
