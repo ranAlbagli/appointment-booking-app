@@ -1,0 +1,20 @@
+.getAppButton{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: orangered;
+    align-self: flex-end
+}
+
+.getForm{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+
+.getContainer{
+    margin-top: 35px
+    
+}

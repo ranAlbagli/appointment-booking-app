@@ -1,0 +1,9 @@
+.Slot{
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Slot:hover{
+    background-color: lightseagreen;
+}

@@ -1,0 +1,28 @@
+.TypesContainer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 35px
+    
+}
+
+.Formtypes{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px
+}
+.AddButton{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: orangered;
+    align-self: flex-end
+}

@@ -1,0 +1,36 @@
+.Booked{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px
+}
+
+
+.Inner{
+    border: 2px solid grey;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+    margin: 8px;
+    
+  }
+  .Outer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  img{
+    width: 135px;
+    margin: 0 auto;
+    border-bottom: 1px solid grey ;
+    margin-bottom: 4px
+  }
+  h3{
+    margin: 0 ;
+  }

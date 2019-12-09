@@ -1,0 +1,39 @@
+
+.Header{
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navLinks {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cleanList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around
+  }
+
+.cleanList li {
+  cursor: pointer;
+  margin-left: 20px;
+  color: white;
+}
+.cleanList li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px
+}
+.cleanList  li a:hover {
+  opacity: 0.8;
+}
+
+.border{
+  
+  border-bottom: 3px solid orangered
+}

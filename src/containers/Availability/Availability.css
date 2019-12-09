@@ -1,0 +1,48 @@
+
+
+  .dayDisplay{
+      display: flex;
+      justify-content:space-between;
+      width: 30%;
+      margin-left: 350px;
+      margin-bottom: 10px
+
+  }
+  .formContainer{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;      
+  }
+
+
+  .timeInput{
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+  }
+
+  .fromTo{
+      width: 7%;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 600px;
+      margin-bottom: 10px
+      
+  }
+
+  .saveButton{
+    margin-top: 10px;
+    align-self: center;
+    width: 5%;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: orangered;
+  }
+
+  .breakTime{
+    width: 193px;
+    position: absolute;
+    top: 20%;
+    right: 200px;
+  }
